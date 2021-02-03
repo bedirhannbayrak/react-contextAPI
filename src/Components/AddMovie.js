@@ -15,7 +15,7 @@ const AddMovie = () => {
     }
     const addMovie = (e) => {
         e.preventDefault();
-        setMovies(prevMovies => [...prevMovies , {name,price}])
+        setMovies( prevMovies => [...prevMovies , {name,price}])
     }
 
     return (
